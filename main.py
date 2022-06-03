@@ -1,7 +1,7 @@
 
 from functools import wraps
 from textwrap import wrap
-from django.forms import PasswordInput
+
 from flask import Flask, render_template, redirect, url_for, flash,abort
 from flask_bootstrap import Bootstrap
 from flask_ckeditor import CKEditor
